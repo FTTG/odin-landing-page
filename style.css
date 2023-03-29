@@ -22,6 +22,8 @@ h1 {
 
 h2,
 h1,
+h3,
+p,
 body {
     margin: 0;
 }
@@ -110,4 +112,30 @@ img.first-item {
     width: 300px;
     font-size: 18px;
     color: #1F2937;
+}
+
+.third-portion {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.third-portion p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 700px;
+
+}
+
+.third-portion div {
+    width: 700px;
+
+}
+
+h3.third-source {
+    text-align: end;
 }
