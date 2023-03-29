@@ -88,6 +88,14 @@ img.first-item {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 30px;
+}
+
+.second-portion h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin: 30px;
 }
 
 .second-card-item.image {
@@ -96,4 +104,10 @@ img.first-item {
     height: 300px;
     border: solid #3882F2;
     border-radius: 20px;
+}
+
+.second-card-item.text {
+    width: 300px;
+    font-size: 18px;
+    color: #1F2937;
 }
