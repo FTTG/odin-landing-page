@@ -125,6 +125,7 @@ img.first-item {
 
 .third-portion p {
     font-size: 36px;
+    font-weight: lighter;
     font-style: italic;
     color: #1F2937;
     width: 700px;
@@ -138,4 +139,34 @@ img.first-item {
 
 h3.third-source {
     text-align: end;
+}
+
+.fourth-portion {
+    background-color: #3882F2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 130px;
+    padding: 30px;
+    border-radius: 8px;
+    gap: 10px;
+    color: #E5E7EB;
+}
+
+.fourth-item.signup {
+    border: solid #E5E7EB 2px;
+}
+
+.fourth-item h3 {
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 70px;
+    bottom: 0;
 }
